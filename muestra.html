@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Senior Track Colegio de la UPB 2024</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/prism-okaidia.css">
+    <link rel="stylesheet" href="./css/custom.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"> 
+        <div class="container">
+            <a class="navbar-brand" href="./">Senior Track</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" 
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="?view=animo">Estado de animo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=cita">Citas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=medicina">Medicinas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=comida">Comidas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=suministro">Suministros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=cambio">Cambios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=ajuste">Ajustes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="?view=logout">Salir</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-lg-12"></div>
+        </div>
+        <div class="row my-4">
+            <div class="col-lg-12"></div>
+        </div>
+    </div>
+    <center>
+        <form action="?view=cambio&accion=ingresar" method="post" enctype="multipart/form-data">
+            <label for="selfie">Sube una imagen para validar los cambios</label><br><br>
+            <input type="file" id="selfie" name="selfie" accept="image/*" capture="user" required><br><br>
+            <button type="submit">Subir Selfie</button>
+        </form>
+    </center>
+    <footer class="py-5 bg-primary">
+        <div class="container">
+            <p class="m-0 text-center text-white">Bienvenido <b>Nelson Holguin</b>, nos alegra saber que te conectas, porque nos importa que cada día estés mejor</p>
+        </div>
+    </footer>
+
+    <!-- Archivos de JavaScript -->
+    <script src="./jss/bootstrap.bundle.min.js"></script> 
+    <script src="./jss/prism.js" data-manual></script>
+</body>
+</html>
+
